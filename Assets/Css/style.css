@@ -343,7 +343,7 @@ html {
 {
    height: 100%;
 }
-.product1 , .product2 , .product3 , .product4
+.product1 , .product2 , .product3 , .product4,.product5
 {
     height: 300px;
     border: 1px solid black;
@@ -354,7 +354,7 @@ html {
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
 }
-.product1 img,.product2 img,.product3 img,.product4 img
+.product1 img,.product2 img,.product3 img,.product4 img,.product5 img
 {
     max-width: 307.4px !important;
     max-height: 103px !important;
@@ -427,6 +427,7 @@ html {
     padding-top: 3px;
     height: 30px;
 }
+.product5 p,
 .product4 p ,
 .product2 p , .product3 p
 {
@@ -435,6 +436,7 @@ html {
     padding-top: 8px;
     margin: 0;
 }
+.product5 .item-icon .fa-shopping-cart,
 .product4 .item-icon .fa-shopping-cart,
 .product3 .item-icon .fa-shopping-cart,
 .product2 .item-icon .fa-shopping-cart
@@ -445,6 +447,7 @@ html {
     position: relative;
     right: 100px;  
 }
+.product5 .item-btn,
 .product4 .item-btn,
 .product3 .item-btn,
 .product2 .item-btn
@@ -458,6 +461,7 @@ html {
     border-radius: 3px;
     font-size: 13px;
 }
+.product5 .item-btn p,
 .product4 .item-btn p,
 .product3 .item-btn p,
 .product2 .item-btn p
@@ -468,6 +472,7 @@ html {
     padding-top: 3px;
     height: 30px;
 }
+.product5 .item-icon .fa-shopping-cart:hover,
 .product4 .item-icon .fa-shopping-cart:hover,
 .product3 .item-icon .fa-shopping-cart:hover,
 .product2 .item-icon .fa-shopping-cart:hover,
@@ -476,6 +481,7 @@ html {
     color: orange;
     cursor: pointer;
 }
+.product5 .item-btn:hover>p,
 .product4 .item-btn:hover>p,
 .product3 .item-btn:hover>p,
 .product2 .item-btn:hover>p,
